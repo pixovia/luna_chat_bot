@@ -1,0 +1,17 @@
+{
+	"name": "pixovia-luna-bot",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev --test-scheduled",
+		"start": "wrangler dev --test-scheduled"
+	},
+	"devDependencies": {
+		"wrangler": "^4.77.0"
+	},
+	"dependencies": {
+		"@supabase/supabase-js": "^2.100.0",
+		"groq-sdk": "^1.1.1"
+	}
+}
